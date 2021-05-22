@@ -17,5 +17,6 @@
 
     //core classes
     require_once(CORE_PATH.DS.'post.php');
+    require_once(CORE_PATH.DS.'category.php');
 
 ?>
