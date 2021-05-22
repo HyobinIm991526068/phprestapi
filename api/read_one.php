@@ -10,6 +10,7 @@ include_once('../core/initialize.php');
 //instantiate post
 $post = new Post($db);
 
+//check if it exists and get else close
 $post->id = isset($_GET['id']) ? $_GET['id'] : die();
 
 $post->read_one();
