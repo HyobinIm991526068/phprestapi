@@ -15,7 +15,7 @@ $post = new Post($db);
 //get raw posted data
 $data = json_decode(file_get_contents('php://input'));
 
-$post->id           = $data->id;
+$post->id = $data->id;
 
 //update post
 if($post->delete()){
